@@ -6,17 +6,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Coco</title>
 		<link rel="stylesheet" href="style.css" />
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+		</style>
 	</head>
 	<body>
-		<div class="wrapper">
-			<img src="images/coco.jpg" />
-			
-            
-            <div class="logo">
-                <img src="images/logo.png">
-                <h2>Wat als je de familie zou kunnen ontmoeten die voor jou kwam...</h2>
-                <h3>De ambitieuze muzikant Miguel bindelt zijn krachten met de charmante bedrieger Hector op een buitengewone reis door het kleurrijke Land der Doden om zijn familiegeschiedenis te onthullen.</h3>
-                <a href="#">TICKETS</a>
-            </div>
+		<div class="kader">
+			<img class="kader" img src="images/coco.jpg" />
+			<!--probleem 1: geen class aangemaakt, hierdoor kom ik niets afzonderlijk aanspreken in css.-->
+			<div class="tekst">
+				<img class="logo" src="images/logo.png" />
+				<!--probleem 2: kon afbeelding niet centreren. Ik had eerst inline de afbeelding verkleind, pas nadat ik meerdere classes had aangemaakt deed ik het external -->
+				<h1>Wat als je de familie zou kunnen ontmoeten die voor jou kwam...</h1>
+				<p>De ambitieuze muzikant Miguel bindelt zijn krachten met de charmante bedrieger Hector op een buitengewone reis door het kleurrijke Land der Doden om zijn familiegeschiedenis te onthullen.</p>
+				<p>
+					<a class="link" href="#">TICKETS</a>
+				</p>
+			</div>
+		</div>
 	</body>
 </html>

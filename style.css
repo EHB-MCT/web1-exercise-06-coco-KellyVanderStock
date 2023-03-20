@@ -1,0 +1,38 @@
+body {
+	font-family: "Abel", sans-serif;
+	color: white;
+	margin: 50px;
+}
+
+.kader {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.tekst {
+	position: absolute;
+	top: 100px;
+	right: 50px;
+	display: inline-block;
+	width: 45%;
+	height: 70%;
+}
+/*Hoe bereken je de grootte van dit kader (.tekst)?*/
+
+.logo {
+	width: 50%;
+	position: relative;
+	left: 130px;
+}
+/*Hoe centreer je een afbeelding? Nu heb ik het gemeten, en zo met de px gespeeld.*/
+
+.link {
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+	background-color: #f58020;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 20px;
+}
